@@ -1,0 +1,5 @@
+C:\Users\HP\Desktop\PROGRAMMING PRACTICE\k.azuikeCOS101\week-6\project_1\target\debug\deps\project_1-2aa6e90da0840fbc.d: src\main.rs
+
+C:\Users\HP\Desktop\PROGRAMMING PRACTICE\k.azuikeCOS101\week-6\project_1\target\debug\deps\project_1-2aa6e90da0840fbc.exe: src\main.rs
+
+src\main.rs:
