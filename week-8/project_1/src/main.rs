@@ -38,7 +38,7 @@ fn main () {
                 let mut job: usize = input2.trim().parse().expect("please enter a valid number from 1 to 6");
 
                 if job < 1 || job > 6{
-                    println!("Please select from 1 to 6");
+                    println!("\nPlease select from 1 to 6");
                 }else{
                     println!("\nYour APS level is {}.", public_servant[job-1]);
                     break;
@@ -58,7 +58,7 @@ fn main () {
                 let mut job: usize = input2.trim().parse().expect("please enter a valid number from 1 to 6");
 
                 if job < 1 || job > 6{
-                    println!("Please select from 1 to 6");
+                    println!("\nPlease select from 1 to 6");
                 }else{
                     println!("\nYour APS level is {}.", public_servant[job-1]);
                     break;
@@ -78,7 +78,7 @@ fn main () {
                 let mut job: usize = input2.trim().parse().expect("please enter a valid number from 1 to 6");
 
                 if job < 1 || job > 6{
-                    println!("Please select from 1 to 6");
+                    println!("\nPlease select from 1 to 6");
                 }else{
                     println!("\nYour APS level is {}.", public_servant[job-1]);
                     break;
@@ -98,7 +98,7 @@ fn main () {
                 let mut job: usize = input2.trim().parse().expect("please enter a valid number from 1 to 6");
 
                 if job < 1 || job > 6{
-                    println!("Please select from 1 to 6");
+                    println!("\nPlease select from 1 to 6");
                 }else{
                     println!("\nYour APS level is {}.", public_servant[job-1]);
                     break;
@@ -106,7 +106,7 @@ fn main () {
             }
             break;
         }else {
-            println!("Select from 1 to 4.");
+            println!("\nSelect from 1 to 4.");
         }
     }
 }
