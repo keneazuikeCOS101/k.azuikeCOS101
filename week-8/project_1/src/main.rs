@@ -1,3 +1,5 @@
+//Rust program to check APS level
+
 use std::io;
 
 fn main () {
@@ -11,7 +13,7 @@ fn main () {
 
     
 
-
+    //find out user field
     loop{
         println!("\nThese are the fields available:
         1. Office admin
@@ -24,7 +26,8 @@ fn main () {
         println!("\nWhat field do you work in(Enter from 1 to 4)?");    
         io::stdin().read_line(&mut input1).expect("Failed to read input");
         let mut field: u8 = input1.trim().parse().expect("please enter a valid number from 1 to 4");
-    
+        
+        //find out user job
         if field == 1{
             loop{
                 println!("\nYou have chosen Office Admin.");
